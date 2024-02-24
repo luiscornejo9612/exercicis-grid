@@ -35,9 +35,25 @@ span {
     background-color: #C8E6C9;
 }
 
+.item3 {
+    grid-row: span 3
+}
+
+.item7 {
+    grid-row: span 2;
+}
+
+.item8 {
+    grid-column: span 2;
+}
+
 
 .el4 {
     background-color: #278C7A;
+}
+
+.item9 {
+    grid-column: span 4
 }
 
 
@@ -48,7 +64,7 @@ span {
 section {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto 300px auto;
+    grid-template-rows: auto auto auto;
     /* Dos columnas con el mismo ancho */
     column-gap: 10px;
     row-gap: 20px;
